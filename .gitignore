@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+zScript_git commit.bat
 
 # testing
 /coverage
