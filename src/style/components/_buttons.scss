@@ -7,15 +7,15 @@
     color: rgb(184, 183, 183);
     transition: 0.25s;
     user-select: none;
-    padding: 0 14px;
-
+    padding: 0 25px;
+    z-index: 10;
     &:hover {
       font-size: 4rem;
     }
   }
 
   .left {
-    left: 15px;
+    left: 25px;
   }
 
   .right {

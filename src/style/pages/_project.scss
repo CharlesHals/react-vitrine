@@ -79,6 +79,7 @@
     @media screen and (max-width: 700px){
       grid-template-columns: 1fr;
       grid-template-rows: 100px 1fr;
+      margin-top: 12rem;
     }
     @media screen and (max-height: 600px){
       margin: 3rem 1rem 0;
@@ -181,11 +182,11 @@
         }
         @media screen and (max-width: 540px){
           height: 200px;
-          width: 370px;
+          width: 100%;
         }
         @media screen and (max-width: 400px){
           height: 150px;
-          width: 280px
+          width: 100%
         }
 
         &:hover span,

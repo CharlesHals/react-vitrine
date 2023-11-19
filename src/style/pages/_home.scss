@@ -32,8 +32,10 @@
     @media screen and (max-width: 430px){
       display: none;
     }
+  }  
+  @media screen and (max-width: 500px){
+    margin: auto 30px;
   }
-
   .home-main {
     display: grid;
     align-items: center;

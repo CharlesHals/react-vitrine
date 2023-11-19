@@ -6,12 +6,14 @@ const Buttons = (props) => {
         <div className='scroll-bottom'>
             {props.left &&
                 <NavLink to={props.left} className="left hover">
-                    <span>&#10092;</span>
+                    <div><span>&#10092;</span></div>
                 </NavLink>
             }
             {props.right &&
                 <NavLink to={props.right} className="right hover">
-                    <span>&#10093;</span>
+                    <div>
+                        <span>&#10093;</span>
+                    </div>
                 </NavLink>}
         </div>
     );
